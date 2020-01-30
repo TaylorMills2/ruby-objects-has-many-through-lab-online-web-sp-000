@@ -24,6 +24,7 @@ class Patient
     Appointment.new(self, date, doctor)
   martin = Patient.new("Martin Jones")
   martin.add_appointment(appointment)
+  
   end
 
 end 
