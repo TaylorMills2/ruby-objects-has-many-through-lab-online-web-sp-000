@@ -27,3 +27,9 @@ class Patient
 end 
 
 
+martin = Patient.new("Martin Jones")
+martin.add_appointment(appointment)
+      
+doctor_who.add_appointment(appointment)
+doctor_who.patients.include?(martin)
+
