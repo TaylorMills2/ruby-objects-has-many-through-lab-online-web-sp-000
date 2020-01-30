@@ -35,10 +35,3 @@ doctor_who.name
 
 
 appointment = Appointment.new("Friday, January 32nd", doctor_who)
-doctor_who.add_appointment(appointment) #=> 
-
-martin = Patient.new("Martin Jones")
-martin.add_appointment(appointment)
-      
-doctor_who.add_appointment(appointment)
-doctor_who.patients.include?(martin)
