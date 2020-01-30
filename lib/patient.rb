@@ -27,8 +27,8 @@ class Patient
 end 
 
 
-martin = Patient.new("Keith Sweat")
-martin.new_appointment(appointment)
+Keith = Patient.new("Keith Sweat")
+new_appointment(appointment)
       
 doctor_who.add_appointment(appointment)
 doctor_who.patients.include?(Keith)
