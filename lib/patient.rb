@@ -31,9 +31,12 @@ martin = Patient.new("Keith Sweat")
 martin.new_appointment(appointment)
       
 doctor_who.add_appointment(appointment)
-doctor_who.patients.include?(martin)
+doctor_who.patients.include?(Keith)
 
 appointment = Appointment.new("Friday, January 32nd", doctor_who)
 doctor_who.add_appointment(appointment)
 
+doctor_smith = Doctor.new("John Wall")
+Doctor.new("Martha Stewart")
+doctor_smith.appointments
 
