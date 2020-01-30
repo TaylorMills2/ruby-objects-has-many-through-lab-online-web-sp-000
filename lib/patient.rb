@@ -25,9 +25,6 @@ class Patient
     appointment = Appointment.new("Friday, January 32nd", doctor_who)
   end
 
-
 end 
 
 
-
-appointment = Appointment.new("Friday, January 32nd", doctor_who)
