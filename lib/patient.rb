@@ -28,10 +28,10 @@ end
 
 doctor_smith = Doctor.new("John Smith")
 Doctor.new("Martha Jones")
-doctor_smith.appointments # should be empty array
+doctor_smith.appointments 
 
 doctor_who = Doctor.new("The Doctor")
-doctor_who.name #=> Should be: "The Doctor"
+doctor_who.name 
 
 
 appointment = Appointment.new("Friday, January 32nd", doctor_who)
