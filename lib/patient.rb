@@ -40,3 +40,5 @@ doctor_smith = Doctor.new("John Wall")
 Doctor.new("Martha Stewart")
 doctor_smith.appointments
 
+doctor_who = Doctor.new("The Doctor")
+doctor_who.name
