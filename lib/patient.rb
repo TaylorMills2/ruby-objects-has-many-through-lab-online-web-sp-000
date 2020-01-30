@@ -22,16 +22,12 @@ class Patient
 
   def new_appointment(doctor, date)
     Appointment.new(self, date, doctor)
+    appointment = Appointment.new("Friday, January 32nd", doctor_who)
   end
+
 
 end 
 
-doctor_smith = Doctor.new("John Smith")
-Doctor.new("Martha Jones")
-doctor_smith.appointments 
-
-doctor_who = Doctor.new("The Doctor")
-doctor_who.name 
 
 
 appointment = Appointment.new("Friday, January 32nd", doctor_who)
